@@ -14,7 +14,56 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff5e82b6-3bdb-4ad3-a10d-5c913fdde563" name="Default Changelist" comment="" />
+    <list default="true" id="ff5e82b6-3bdb-4ad3-a10d-5c913fdde563" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoreApi/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RiderCompoundProfileRepro/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreApi/Controllers/HelloController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreApi/CoreApi.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreApi/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreApi/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreApi/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreApi/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreApi/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/App_Start/FilterConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/App_Start/RouteConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/FrameworkWeb.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/FrameworkWeb.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Global.asax" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Global.asax.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Views/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Web.Debug.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Web.Release.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameworkWeb/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RiderCompoundProfileRepro.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SharedLib/HelloDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SharedLib/SharedLib.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +101,21 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
-  <component name="RunManager" selected=".NET Project.FrameworkWeb">
+  <component name="RunManager" selected="Compound.ReproProfile">
+    <configuration name="ReproProfile" type="CompoundRunConfigurationType">
+      <toRun name="FrameworkWeb" type="DotNetProject" />
+      <toRun name="CoreApi" type="LaunchSettings" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="FrameworkWeb" type="DotNetProject" />
+      <toRun name="CoreApi" type="LaunchSettings" />
+      <method v="2" />
+    </configuration>
     <configuration name="FrameworkWeb" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Program Files (x86)/IIS Express/iisexpress.exe" />
+      <option name="PROGRAM_PARAMETERS" value="/config:$PROJECT_DIR$/.idea/config/applicationhost.config /site:FrameworkWeb /apppool:Clr4IntegratedAppPool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Program Files (x86)/IIS Express" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -66,7 +125,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Web" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
       <browser url="http://localhost:5002/" start="true" />
       <method v="2">
         <option name="Build" />
@@ -102,6 +161,12 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.CoreApi" />
+      <item itemvalue=".NET Launch Settings Profile.CoreApi: IIS Express" />
+      <item itemvalue=".NET Project.FrameworkWeb" />
+      <item itemvalue="Compound.ReproProfile" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597665009417</updated>
-      <workItem from="1597665029810" duration="799000" />
+      <workItem from="1597665029810" duration="912000" />
     </task>
     <servers />
   </component>
@@ -135,21 +200,89 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1597665546529">
+    <state x="-1506" y="194" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597665947572">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665546529" />
-    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1597665546528">
+    <state x="-1506" y="194" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665947572" />
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1597665853956">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665546528" />
-    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1597665546528">
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853956" />
+    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1597665853955">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665546528" />
-    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1597665546529">
+    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853955" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1597665853955">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665546529" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853955" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1597665853956">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853956" />
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.1.center" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.center/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.1.left" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.left/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.1.right" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.right/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.2.center" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.center/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.2.left" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.left/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.2.right" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.right/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom" timestamp="1597665853675">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853675" />
+    <state width="1877" height="390" key="GridCell.Tab.3.center" timestamp="1597665853675">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.center/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853675" />
+    <state width="1877" height="390" key="GridCell.Tab.3.left" timestamp="1597665853674">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.left/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853674" />
+    <state width="1877" height="390" key="GridCell.Tab.3.right" timestamp="1597665853675">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.right/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853675" />
+    <state width="1877" height="390" key="GridCell.Tab.4.bottom" timestamp="1597665853675">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.bottom/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853675" />
+    <state width="1877" height="390" key="GridCell.Tab.4.center" timestamp="1597665853675">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.center/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853675" />
+    <state width="1877" height="390" key="GridCell.Tab.4.left" timestamp="1597665853675">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.left/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853675" />
+    <state width="1877" height="390" key="GridCell.Tab.4.right" timestamp="1597665853675">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.right/0.0.1463.823/-3840.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597665853675" />
   </component>
 </project>
